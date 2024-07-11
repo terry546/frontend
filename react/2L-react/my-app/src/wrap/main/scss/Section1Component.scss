@@ -1,0 +1,28 @@
+#section1 {
+    width:100%;
+    height: auto;
+    background: #fff;
+    .container {
+        width:1050px;
+        margin: 0 auto;
+        background: #f0f0f0;
+        .title {
+            width:100%;
+            text-align: center;
+            h2 {
+                font-size: 32px;
+                font-weight: 600;
+            }
+        }
+        .content {
+            width:100%;
+            text-align: center;
+            svg {
+                width: 50px;
+            }
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
