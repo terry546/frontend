@@ -32,6 +32,15 @@ function App() {
 
 // dispatch기능
 // dispatch반환된 함수를 사용하면 상태 useReducer를 다른 값으로 업데이트하고 다시 렌더링을 트리거할 수 있습니다. dispatch함수에 유일한 인수로 작업을 전달해야 합니다.
+
+// 상태관리 useReducer
+
+// 장부 reducerTodo
+// 명사 물건의 출납이나 돈의 수입과 지출(수지)(收支) 계산을 적어 두는 책
+
+// 창구 dispatchTodo
+// 외부 사람과 직접 접촉하거나 단체나 기관 따위에서 서로 협조하기 위하여 마련하여 놓은 연락 부서를 비유적으로 이르는 말.
+
   const [state, dispatchTodo] = useReducer(reducerTodo, initialState);
 
   const addNewItem = () => {
@@ -86,7 +95,7 @@ function App() {
                 <input
                   type="text"
                   value={editingText}
-                  onChange={(e) => setEditingText(e.target.value)}
+                  onChange={(e) => setEditingText(e.target.value)}ㄴ
                 />
                 <button onClick={() => saveEdit(todo.id)}>저장</button>
               </>

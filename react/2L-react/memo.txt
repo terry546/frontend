@@ -1,0 +1,26 @@
+프로젝트 불러오고 처음 시작할때
+my-app아래에 node_modules설치 되어 있는지 확인하기
+    ㄴ 없으면 npm i로설치
+
+
+
+
+
+2
+    ㄴ npm run build
+    ㄴ "homepage":""
+        ㄴ package.json안에 homepage배포설정
+            ㄴ 정확히 이걸 뭐라고 하지?
+    ㄴ 선생님 마이박스에 있는 데이터
+        ㄴ 져스트 쇼핑몰, 강의영상, html css교제
+    ㄴ Object 오브젝트 객체
+        ㄴJS, JSON
+        ㄴ README2.md참조
+    ㄴ react.js
+        ㄴ 구글 확장프로그램
+    ㄴ L-2react에 있는 Section3Component파일
+        ㄴ 파일 1react에서 정리하기
+
+
+1
+    ㄴ 프로젝트 환경 구성, cscc

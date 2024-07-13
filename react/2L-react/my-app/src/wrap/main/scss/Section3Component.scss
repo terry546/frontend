@@ -1,0 +1,7 @@
+.red{
+    color:#f00;
+    font-size:30px;
+    &.on{
+        color:#00f;
+    }
+}
