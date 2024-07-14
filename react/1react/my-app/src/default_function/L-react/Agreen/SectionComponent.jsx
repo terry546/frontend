@@ -1,8 +1,8 @@
 import React from 'react';
-import './scss/Section3Component.scss';
+import './SectionComponent.scss';
 
 
-export default function Section3Component2() {
+export default function SectionComponent() {
 
     // 상태(State)  관리(Management)
     // [1] 리액트 상태관리

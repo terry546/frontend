@@ -9,6 +9,7 @@ export default function MainComponent() {
                 <Section1Component />
                 <Section2Component />
                 <Section3Component />
+
         </main>
     );
 }

@@ -16,10 +16,6 @@ my-app아래에 node_modules설치 되어 있는지 확인하기
     ㄴ Object 오브젝트 객체
         ㄴJS, JSON
         ㄴ README2.md참조
-    ㄴ react.js
-        ㄴ 구글 확장프로그램
-    ㄴ L-2react에 있는 Section3Component파일
-        ㄴ 파일 1react에서 정리하기
 
 
 1

@@ -1,8 +1,8 @@
-리액트 useReducer로 상태 관리하기(useState와 비교) | React 가지고 놀아보기 귀여워짐
-    ㄴ reducer를 익혀야 한다
-    ㄴ 영상보고 reducer습득하기
+https://react.dev/
 
-정리한대 까지 React-router-dom 설정해서 정리하기
+node_modules : npm install을 하여 설치된 모듈들이 위치하는 폴더
+public : static 자원 폴더, 정적 파일들을 위한 폴더
+src : 리액트를 작업할 폴더
 
 3
     ㄴ useRef
@@ -32,13 +32,5 @@
 react document
     ㄴ 3. 엘리먼트 렌더링
         ㄴ 렌더링 된 엘리먼트 업데이트하기 페이지 이동하는 기능 만들어서 정리하기
-    
 
-https://react.dev/
-
-node_modules : npm install을 하여 설치된 모듈들이 위치하는 폴더
-public : static 자원 폴더, 정적 파일들을 위한 폴더
-src : 리액트를 작업할 폴더
-
-nodejs홈페이지 에서 node.js 다운로드
 

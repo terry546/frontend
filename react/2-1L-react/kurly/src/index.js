@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import WrapComponent from './WrapComponent'
+import WrapComponent from './WrapComponent.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

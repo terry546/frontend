@@ -2,13 +2,14 @@ import "./App.css";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import App from './App'
 import Store from './Pages/Store';
-import UseState from './default_function/UseState';
-import UseEffect from './default_function/UseEffect';
-import UseRef from './default_function/UseRef';
-import UseRef2 from './default_function/UseRef2';
-import Props from './default_function/Props';
+import UseState from './default_function/AAUseState';
+import UseEffect from './default_function/ABUseEffect';
+import UseRef from './default_function/ACUseRef';
+import UseRef2 from './default_function/ACUseRef2';
+import Props from './default_function/ADProps';
 import Reducer from './toy/Reducer';
 import Reducer2 from './toy/Reducer2';
+import SectionComponent from "./default_function/L-react/Agreen/SectionComponent";
 
   // ㄴ ex) UseState
 
@@ -30,6 +31,7 @@ function Routing() {
           <Route path='/Props' element={<Props />} />
           <Route path='/Reducer' element={<Reducer />} />
           <Route path='/Reducer2' element={<Reducer2 />} />
+          <Route path='/SectionComponent' element={<SectionComponent />} />
           
         </Routes>
       </BrowserRouter>
