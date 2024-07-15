@@ -2,12 +2,12 @@ run
     ㄴ my-app안에서 npm start
 
 install
-    ㄴ npx create-react-app my-app
-    ㄴ npm i react-router-dom
-    ㄴ npm i sass   
-        ㄴ npm i sass-loader  
     ㄴ react.js
         ㄴ 구글 확장프로그램
+    ㄴ npm i sass   
+        ㄴ npm i sass-loader  
+    ㄴ npm i react-router-dom
+    ㄴ npx create-react-app my-app
 
 cmd
     ㄴ npm --version
