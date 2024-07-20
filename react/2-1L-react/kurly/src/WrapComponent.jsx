@@ -14,7 +14,7 @@ import Sub7Component from './wrap/sub/Sub7Component.jsx';
 export  default function  WrapComponent () {
     return(
             <div id='wrap'>
-                <BrowserRouter>       
+                <BrowserRouter>
                         <Routes>
                                 <Route  path='/'  element={<HeaderComponent />}>                                        
                                         <Route index    element={<MainComponent />}/>

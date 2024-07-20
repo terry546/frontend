@@ -1,0 +1,21 @@
+집에서 사스 받아서 실행되는거 확인했는데
+학원에서 와서 하니까 안되더라
+    ㄴnpm i로 설치된건 어디에 설치되고 관리되나요?
+
+받을때는 매게변수 
+전달할떄는 아규먼트가 맞나?
+
+React.useEffect(()=>{
+    let menu= state.menu;
+    menu[0]=true;
+    setState({
+        ...state,
+        menu: menu
+    })
+
+},[]);
+  ㄴ []는 한번만 실행 하라는 뜻이다.
+
+두가지 컴포는트 사용시 빈태그
+
+li.slide.slides$*24>a>img[src=sec01_slide_$$.jpg alt='']
