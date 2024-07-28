@@ -1,0 +1,81 @@
+04파일에서 영상보면서 슬라이드 만드는 부분 보기,
+5~8부분 정리하기
+
+04:12:45
+  ㄴ 03으로 폴더 바꾸는 부분
+  Route로 경로 지정만 하는 부분인거 같다.
+
+8
+export  default function  HeaderComponent ({menuSetter}) {
+
+    // 클릭이벤트도 1개로 처리(매개변수2개처리)
+    // 부모컴포넌트 함수에 매개변수값 전달
+    const onClickMenu=(e, idx)=>{
+        e.preventDefault();
+        menuSetter(idx);
+    }
+03:55:11
+  ㄴ onClick선언한거 onClick으로 view와 controller로 이어주는거 정리하기
+03:59:30
+  ㄴ onClick설명해준다
+
+
+
+7
+React.useEffect(()=>{
+    let menu = state.menu;
+    menu[0] =true;
+    setState({
+        ...state, // 현제 상태 값들을 불러와서 초기화 시켜준다
+        menu: menu // 초기화 시켜준후 값을 입력 한다
+    })
+},[]);
+state jsx useEffect 다시 돌아간다
+state가 바뀐다 다시 jsx가 실행된다 다시 useEffect를 실행 시키려는데 
+[](대괄호로) 다시 실행되는걸 막는다
+  ㄴ 04:07:16 부분에 설명
+
+04:08:40
+  ㄴ 여기까지 
+
+
+6
+// 메뉴1개(매개변수인덱스번호 index => idx => id => i) 
+// idx 8 개 (0 ~ 7)
+const menuSetter=(idx)=>{       
+    let menu = Array(8).fill(false);   // 임시변수로 마음대로 변경하고 처리하고 그리고 마지막에 세터함수에 넣어준다.
+    menu[idx] = true; //idx매개변수로 배열의 수만큼 idx배열값을 순서대로 준다
+    setState({
+            ...state, // 현제 상태 값들을 불러와서 초기화 시켜준다
+            menu: menu // 초기화 시켜준후 값을 입력 한다
+    })   
+}
+03:41:25
+
+
+
+1. ctrl+H
+  ㄴ to=는 =까지 드래그 해서 수정하기
+
+2 {main && <MainComponent />}
+  ㄴ상태변수를 만들어서(생성)보이고, 안보임을 설정한다.
+  WrapComponent
+
+3 export  default function  HeaderComponent ({sub1Setter}) {
+      ㄴ 매게변수에props말고 {sub1Setter}를 넣어주는거 정리하기
+        ㄴ props개념을 생각하면서 정리하기
+
+4     const onClickSub1=(e)=>{
+    e.preventDefault(); // a 링크태그는 세로고침 발생 제거
+    sub1Setter();// 부모 컴포넌트의 서브1 페이지 보이도록 하는 함수를 호출 실행
+}
+
+  ㄴ 해당함수에서 sub1Setter()가 잘 이해 안된다
+
+5 // menu =[false,false,false,false,false,false,false]
+  ㄴ menu = Array().fill(false);
+      ㄴWrapComponent
+02:30:00~ 03:48:54
+  ㄴ state에 배열을 쓰지않고 상태를 관리하는 방법
+03:39:00~ 03:48:54
+  ㄴ state에 배열을 사용해서 상태를 관리하는 방법
