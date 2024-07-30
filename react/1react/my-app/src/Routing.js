@@ -10,6 +10,7 @@ import Props from './default_function/ADProps';
 import Reducer from './toy/Reducer';
 import Reducer2 from './toy/Reducer2';
 import SectionComponent from "./default_function/L-react/Agreen/SectionComponent";
+import Wrapcomponent from "./default_function/L-react/Bgreen/WrapComponent";
 
   // ㄴ ex) UseState
 
@@ -32,6 +33,7 @@ function Routing() {
           <Route path='/Reducer' element={<Reducer />} />
           <Route path='/Reducer2' element={<Reducer2 />} />
           <Route path='/SectionComponent' element={<SectionComponent />} />
+          <Route path='/Wrapcomponent' element={<Wrapcomponent />} />
           
         </Routes>
       </BrowserRouter>

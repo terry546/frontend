@@ -18,6 +18,7 @@ function App() {
       <Link to="Reducer">Reducer 페이지로</Link><br/>
       <Link to="Reducer2">Reducer2 페이지로</Link><br/>
       <Link to="/SectionComponent">SectionComponent 페이지로</Link><br/>
+      <Link to="/Wrapcomponent">Wrapcomponent 페이지로</Link><br/>
     </div>
   );
 }

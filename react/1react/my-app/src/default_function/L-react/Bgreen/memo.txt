@@ -1,0 +1,11 @@
+You cannot render a <Router> inside another <Router>. You should never have more than one in your app.
+다른 <Router> 내부에 <Router>를 렌더링할 수 없습니다. 앱에 두 개 이상 있으면 안 됩니다.
+
+2-2L-react\03_kurly_라우터_메인_서브구현_\src를 복사 붙여넣기 하면
+메인 페이지에서 Router를 사용하고 있고 서브 페이지에서 Router를 사용해서 발생하는 오류 인거 같은데
+어떻게 코드를 수정을 해야 하지?
+
+6~8정리해야되는 내용
+
+중첩 라우터 에러가 발생할 경우 최상위에만 <BrowserRouter>를 선언해주고 아래 라우터에는
+<BrowserRouter>를 빼면된다
