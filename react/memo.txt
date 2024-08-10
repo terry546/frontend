@@ -1,3 +1,13 @@
+public\images\main에 이미지가 저장된다
+
+div.slide-container>div.slide-view>ul.slide-wrap>li.slide.slide$
+
+div.classname 정리하기
+
+react에서 axios가 뭐지
+  ㄴ src\wrap\main\Section2Component.jsx 파일 참조
+
+
 집에서 사스 받아서 실행되는거 확인했는데
 학원에서 와서 하니까 안되더라
     ㄴnpm i로 설치된건 어디에 설치되고 관리되나요?

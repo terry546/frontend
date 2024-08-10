@@ -1,3 +1,4 @@
+3 리액트에서 제공하는 함수를 훅이라 한다.
 
 2 컴포넌트 이름 시작은 대문자로 작성 해야 한다
     ㄴ import UseState from './default_function/UseState';
