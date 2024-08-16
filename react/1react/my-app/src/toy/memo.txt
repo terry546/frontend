@@ -1,0 +1,49 @@
+reducer 는 현재 상태와 액션 객체를 파라미터로 받아와서 
+새로운 상태를 반환해주는 함수이다. 
+reducer 에서 반환하는 상태는 곧 컴포넌트가 지닐 새로운 상태가 된다.
+
+3 updating
+
+
+2 deleteing
+8 state는 reducerTodo함수의 매개변수에 있다
+16 todos는 초기설정값 배열변수이고 state를 상태값을 넣어준다.
+  ㄴ filter함수를 이용해서 !== 조건식으로 같지않으면 출력한다는 뜻인가?
+  * 16 todo.id !== action.payload 부분을 잘 모르겠다
+    ㄴ *16 action.payload가 뭐지
+      ㄴ 35 addNewItem함수안에 dispatchTodo를 이용해서 payload객체를 저장한다
+      95 removeItem에id객체를 매개변수로 로 준다
+      9 action.payload는 switch (action.type)로 가져온다.
+    80 state.todos.map((todo)에서  todo를 넘겨주고
+    95 removeItem(todo.id)로 매개변수 id값을 넘겨준다
+
+
+
+1 adding
+todos는 reducer상태 초기값 설정 매개변수에 선언 되어 있다.
+reducerTodo에 state매개변수로 todos값 상태 불러오기, +1로 값 추가 하기 등 타입에 따라 가능
+
+다음 addNewItem함수로 MVC에서 V부분에 연결시켜 준다.
+사용자가 버튼을 눌렀을때 dispatchTodo를 이용해서 상태를 추가 해준다.
+
+onchange : value 값이 변경되었을 때 새로 입력한 값으로 변경한다
+
+76번줄 setNewItem은 훅 함수 이다
+76번줄 e.target.value가 잘 이해 안된다
+    ㄴ javascript e.target 검색해서 찾아보기
+    ㄴ Event 인터페이스의 target 속성은 이벤트가 발생한 대상 객체를 가리킵니다.
+
+78번줄 onClick을 누르면 addNewItem함수가 실행 되면서 input안에 쓴 텍스트를 넣는다
+
+
+
+
+reducer개념도 약하고
+코드 분석도 아직 덜됨
+
+개념도 약하고 구조가 안익숙해서
+
+약한 부분들이 익숙해지는게 목적이다.
+
+푸시를 하는데
+
