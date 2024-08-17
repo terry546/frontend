@@ -1,0 +1,33 @@
+*쿠키하고 로컬스토리지 하고 차이점이 뭐지?
+
+02파일에 MainModalComponent.jsx파일에
+  ㄴ if(item.split("=").trim().includes('MAIN_MODAL_01')){
+  ㄴ 쿠키 정리하기
+
+01파일에 MainModalComponent.jsx
+  ㄴ localStorage.setItem('MAIN_MODAL_01', JSON.stringify.obj);
+  F12- Application- LocalStorage에서 localStorage에 입력한 키값 확인할수 있다.
+
+    ㄴ 로컬스토리지값 저장하는거 정리하기
+
+
+import {Provider} from 'react-redux';
+  ㄴ Provider를 선언하면 component최상단에 Provider가 생긴다
+
+export default mainModal.reducer;
+  ㄴ 내보내기 할때 한개면 defualt
+export const {setShow, setTitle} = mainModal.actions;
+  ㄴ 내보내기 할때 두개 이상이면 defualt 빼고 변수 타입 const써주기
+  
+
+import { createSlice } from '@reduxjs/toolkit'
+  ㄴ {}안에 들어가있는 함수는 사용자가 바꿔서 사용할수 없다
+
+npm i @reduxjs/toolkit react-redux
+  ㄴ 한번에 설치
+npm i @reduxjs/toolkit
+npm i react-redux
+  ㄴ 따로 설치
+
+npm i @reduxjs/toolkit
+  ㄴ @가 뭐지

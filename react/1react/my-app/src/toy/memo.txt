@@ -1,3 +1,6 @@
+16 todos: state.todos.filter((todo) => todo.id !== action.payload),
+  ㄴ 사용되는 값을을 출력해서 확인해보기
+
 reducer 는 현재 상태와 액션 객체를 파라미터로 받아와서 
 새로운 상태를 반환해주는 함수이다. 
 reducer 에서 반환하는 상태는 곧 컴포넌트가 지닐 새로운 상태가 된다.
