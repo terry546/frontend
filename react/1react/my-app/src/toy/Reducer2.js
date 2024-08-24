@@ -1,9 +1,15 @@
-import { useReducer, useState } from "react";
+import React,{ useReducer, useState } from "react";
+
 
 function App() {
   const [newItem, setNewItem] = useState("");
   const [editingId, setEditingId] = useState(null);
   const [editingText, setEditingText] = useState("");
+
+
+  React.useEffect=(()=>{
+    console.log(editingId)
+  },[])
 
   const reducerTodo = (state, action) => {
     switch (action.type) {
@@ -95,7 +101,7 @@ function App() {
                 <input
                   type="text"
                   value={editingText}
-                  onChange={(e) => setEditingText(e.target.value)}ㄴ
+                  onChange={(e) => setEditingText(e.target.value)}
                 />
                 <button onClick={() => saveEdit(todo.id)}>저장</button>
               </>

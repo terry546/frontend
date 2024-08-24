@@ -5,6 +5,9 @@
   ㄴ 03으로 폴더 바꾸는 부분
   Route로 경로 지정만 하는 부분인거 같다.
 
+
+
+
 8
 export  default function  HeaderComponent ({menuSetter}) {
 

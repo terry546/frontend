@@ -5,6 +5,17 @@ reducer 는 현재 상태와 액션 객체를 파라미터로 받아와서
 새로운 상태를 반환해주는 함수이다. 
 reducer 에서 반환하는 상태는 곧 컴포넌트가 지닐 새로운 상태가 된다.
 
+입력상자 키입력 => 상태관리 변수에 저장 => 입력상자 값 가져오기
+
+    const onChangeUserId=(event)=>{
+        console.log(event.target.value);
+        setState({
+            ...state,
+            아이디:event.target.value
+        // ...state가 있는데 아이디:event.target.value만 수정
+        })
+    }
+
 3 updating
 
 
